@@ -45,6 +45,13 @@
         <artifactId>selenide</artifactId>
         <version>6.3.0</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.0.3</version>
+    </dependency>
+
 
     import static com.coderbone.selenide.Selenide.*;
     import static com.codeborne.selenide.Condition.*;
